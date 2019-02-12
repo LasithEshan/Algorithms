@@ -7,11 +7,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int[] test = {1, 5 , 7, 2, 4, 1};
+        int[] test = {1, 5 , 7, 2, 4, -1};
 
-        SelectionSort.recursiveSelectionSort(test, test.length);
+//        SelectionSort.recursiveSelectionSort(test, test.length);
+        InsertionSort.recursiveInsertionSort(test, 1);
 
         System.out.println(Arrays.toString(test));
+//        System.out.println(MinimumElement.returnMin(test));
     }
 
     private static void bubbleSort(int[] array) {
