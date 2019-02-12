@@ -9,7 +9,7 @@ public class Main {
 
         int[] test = {1, 5 , 7, 2, 4, 1};
 
-        recursiveBubbleSort(test, test.length);
+        SelectionSort.recursiveSelectionSort(test, test.length);
 
         System.out.println(Arrays.toString(test));
     }
