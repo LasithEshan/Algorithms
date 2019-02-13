@@ -4,6 +4,7 @@ public class InsertionSort {
 
     public static void insertionSort(int[] array){
 
+
         for(int i = 1; i < array.length; i++){
 
             for(int j = i; j > 0; j--){
@@ -13,7 +14,7 @@ public class InsertionSort {
                     array[j-1] = array[j];
                     array[j] = temp;
 
-                }
+                }else break;
             }
 
             }
