@@ -7,11 +7,12 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int[] test = {1, 5 , 7, 2, 4, -1};
+        int[] test = {3, 5 , 7, 2, 1, -1};
 
 //        SelectionSort.recursiveSelectionSort(test, test.length);
 //        InsertionSort.insertionSort(test);
-        ShellSort.shellSort(test);
+//        ShellSort.shellSort(test);
+        MergeSort.mergeSort(test, 0, 5);
 
 
         System.out.println(Arrays.toString(test));
