@@ -20,9 +20,9 @@ public class MergeSort {
         if(array[mid] < array[mid+1]) return;
 
         int[] temp = new int[end - start +1];
-        int i = start;
-        int j = mid +1;
-        int k = 0;
+        int i = start; //crawler for the left array
+        int j = mid +1;// crawler for the right array
+        int k = 0; //crawler for the temp array
 
         while(i <= mid && j <= end){
 
@@ -54,17 +54,6 @@ public class MergeSort {
             array[l] = temp[l - start];
 
         }
-
-
-
-
-
-
-
-
-
-
-
 
      }
 }
